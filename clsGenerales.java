@@ -13,8 +13,7 @@ public class clsGenerales{
             return Integer.parseInt(JOptionPane.showInputDialog(null, texto));
         }
         catch(Exception ex){
-            Mensaje("Error, tipo de dato entero no valido");
-            return 0;
+           return  leerEntero("Error, tipo de dato entero no valido");
         }
 
     }
